@@ -1,29 +1,29 @@
-date ,movie,age,experiment,notes,sensor,depth below ilm microns,nir data,cal520 data
-190703,1,9,waves,,negative control,0,190703 - nanotubes001 nir.csv,190703 - nanotubes001 cal520.csv
-190703,2,9,waves,burning rgc layer,nircat,0,190703 - sensor002 nircat.csv,190703 - sensor002 cal520.csv
-190703,3,9,waves,boosted laser power,nircat,15,190703 - sensor003 nircat.csv,190703 - sensor003 cal520.csv
-190703,4,9,waves,,nircat,20,190703 - sensor004 nircat.csv,190703 - sensor004 cal520.csv
-190704,8,,,burning tissue,,,,
-190704,9,,,also light stimuli,,,,
-190704,10,,waves,,nircat,na,190704 sensor 010 nircat.csv,190704 sensor 010 cal520.csv
-190704,11,,,also light stimuli,,,,
-190709,5,,,K+ puffs weren't working,,,,
-190709,11,,waves,,nircat,24,190709 waves011 nircat.csv,190709 waves011 cal520.csv
-190709,13,,,acsf puffs,,22,,
-190711,7,,,nomifensine,,,,
-190711,9,,,,,,,
-190808,1,6,,,,,,
-190808,2,6,,,,,,
-190808,3,6,,,,,,
-190808,4,6,,,,,,
-190808,9,6,,,,,,
-190808,10,6,,,,,,
-190808,11,6,,,,,,
-190808,12,6,,,,,,
-190808,13,6,,,,,,
-190809,3,5,,,nircat,30,,
-190809,4,5,,,nircat,0,,
-190809,7,5,,,nircat,27,,
-190809,8,5,,nomifensine ,nircat,27,,
-190809,9,5,,light on frames 240-682,nircat,,,
-190809,11,5,,,nircat,,,
+date ,movie,age,piece,experiment,drug,notes,sensor,depth below ilm microns,nir data,cal520 data
+190703,1,9,1,waves,,,negative control,0,190703 - nanotubes001 nir.csv,190703 - nanotubes001 cal520.csv
+190703,2,9,4,waves,,burning rgc layer,nircat,0,190703 - sensor002 nircat.csv,190703 - sensor002 cal520.csv
+190703,3,9,4,waves,,boosted laser power,nircat,15,190703 - sensor003 nircat.csv,190703 - sensor003 cal520.csv
+190703,4,9,4,waves,,,nircat,20,190703 - sensor004 nircat.csv,190703 - sensor004 cal520.csv
+190704,8,,2,,,"intense tissue burning, exclude",,,,
+190704,9,,2,light stimuli,,,,,,
+190704,10,,2,waves,,,nircat,na,190704 sensor 010 nircat.csv,190704 sensor 010 cal520.csv
+190704,11,,2,light stimuli,,,,,,
+190709,5,,1,,,K+ puffs weren't working and only weak signal to 100 uM DA,,,,
+190709,11,,2,waves,,,nircat,24,190709 waves011 nircat.csv,190709 waves011 cal520.csv
+190709,13,,2,,,acsf puffs,,22,,
+190711,7,,2,waves,nomifensine,removed first 75 frames (drift),nircat,23,190711 - waves in nomifensine007 nircat.csv,190711 - waves in nomifensine007 cal520.csv
+190711,9,,3,waves,nomifensine,,nircat, ,190711 - waves in nomifensine009 nircat.csv,190711 - waves in nomifensine009 cal520.csv
+190808,1,6,1,waves,,check z stack for depth,nircat,,190808 piece 1 waves 001 nircat.csv,190808 piece 1 waves 001 cal520.csv
+190808,2,6,1,waves,,,nircat,,190808 piece 1 waves 002 nircat.csv,190808 piece 1 waves 002 cal520.csv
+190808,3,6,1,waves,,,nircat,,190808 piece 1 waves 003 nircat.csv,190808 piece 1 waves 003 cal520.csv
+190808,4,6,1,waves,,some burning,nircat,,190808 piece 1 waves 004 nircat.csv,190808 piece 1 waves 004 cal520.csv
+190808,9,6,1,waves,,burning,nircat,,190808 piece 2 waves009 nircat.csv,190808 piece 2 waves009 cal520.csv
+190808,10,6,2,waves,nomifensine,Nircat signal moves even though cal520 fov doesnt!,nircat,,190808 piece 2 waves in nomi010 nircat.csv,190808 piece 2 waves in nomi010 cal520.csv
+190808,11,6,2,waves,,,nircat,,190808 waves in nomi011 nircat.csv,190808 waves in nomi011 cal520.csv
+190808,12,6,2,waves,,,nircat,,190808 waves in nomi012 nircat.csv,190808 waves in nomi012 cal520.csv
+190808,13,6,2,waves,,,nircat,,190808013 nircat.csv,190808013 cal 520.csv
+190809,3,5,1,,,incubation with nircat. no signal,nircat,30,,
+190809,4,5,1,,,incubation with nircat. no signal,nircat,0,,
+190809,7,5,2,waves,,,nircat,27,190809 piece 2 bolus007 nircat.csv,190809 piece 2 bolus007 cal520.csv
+190809,8,5,2,waves,nomifensine ,,nircat,27,190809 piece 2 bolus - waves in nomi008 nircat.csv,190809 piece 2 bolus - waves in nomi008 cal520.csv
+190809,9,5,2,,,light on frames 240-682,nircat,,,
+190809,11,5,4,waves,,,nircat,,190809 piece 4 bolus - waves011 nircat.csv,190809 piece 4 bolus - waves011 cal520.csv
