@@ -10,8 +10,8 @@ date ,movie,age,piece,experiment,drug,notes,sensor,depth below ilm microns,nir d
 190709,5,7,1,,,K+ puffs weren't working and only weak signal to 100 uM DA,,,,,,yes
 190709,11,7,2,waves,,,nircat,24,190709 waves011 nircat.csv,190709 waves011 cal520.csv,,yes
 190709,13,7,2,,,acsf puffs,,22,,,,yes
-190711,7,,2,waves,nomifensine,removed first 75 frames (drift),nircat,23,190711 - waves in nomifensine007 nircat.csv,190711 - waves in nomifensine007 cal520.csv,,yes
-190711,9,,3,waves,nomifensine,,nircat, ,190711 - waves in nomifensine009 nircat.csv,190711 - waves in nomifensine009 cal520.csv,,yes
+190711,7,9,2,waves,nomifensine,removed first 75 frames (drift),nircat,23,190711 - waves in nomifensine007 nircat.csv,190711 - waves in nomifensine007 cal520.csv,,yes
+190711,9,9,3,waves,nomifensine,,nircat, ,190711 - waves in nomifensine009 nircat.csv,190711 - waves in nomifensine009 cal520.csv,,yes
 190808,1,6,1,waves,,check z stack for depth,nircat,,190808 piece 1 waves 001 nircat.csv,190808 piece 1 waves 001 cal520.csv,,yes
 190808,2,6,1,waves,,,nircat,,190808 piece 1 waves 002 nircat.csv,190808 piece 1 waves 002 cal520.csv,,yes
 190808,3,6,1,waves,,,nircat,,190808 piece 1 waves 003 nircat.csv,190808 piece 1 waves 003 cal520.csv,,yes
@@ -30,7 +30,7 @@ date ,movie,age,piece,experiment,drug,notes,sensor,depth below ilm microns,nir d
 190704,6,9,2,K+ puffs,,,nircat,,1907045 100 mM K puffs006 nircat.csv,1907045 100 mM K puffs006 cal520.csv,"60,90,150",yes
 190704,12,9,2,K+ puffs,,***need to turn off or re-calculate detrending,nircat,,1907045 100 mM K puffs012 nircat.csv,1907045 100 mM K puffs012 cal520.csv,"30,90,150",yes
 190709,3,7,1,K+ puffs,,,nircat,,190708 sensor 100 mM K003 nircat.csv,190708 sensor 100 mM K003 cal520.csv,"60,120,180",yes
-190709,4,7,1,ACSF puffs,,,nircat,,190708 sensor  ACSF puffs004 nircat.csv,190708 sensor  ACSF puffs004 cal520.csv,"60,120,180",yes
+190709,4,7,1,ACSF puffs - likley residual K+,,"did not switch electrode, only rinsed. Exclude as there was likely residual K+",nircat,,190708 sensor  ACSF puffs004 nircat.csv,190708 sensor  ACSF puffs004 cal520.csv,"60,120,180",yes
 190709,12,7,2,K+ puffs,,,nircat,,190709 100 mM K 012 nircat.csv,190709 100 mM K 012 cal520.csv,"60,120,180",yes
 190709,13,7,2,ACSF puffs,,,nircat,,190709 ACSF013 nircat.csv,190709 ACSF013 cal520.csv,"60,120,180",yes
 190709,17,7,3,K+ puffs,,,negative control,,190709 swcnt k puffs017 nircat.csv,190709 swcnt k puffs017 cal520.csv,"60,120,180",yes
@@ -41,5 +41,5 @@ date ,movie,age,piece,experiment,drug,notes,sensor,depth below ilm microns,nir d
 190808,16,6,2,K+ puffs,,depth series,nircat,15,190809 100 mM K puffs016 nircat.csv,190808 100 mM K puffs016 cal520.csv,"120,180,240",yes
 190808,17,6,2,K+ puffs,,depth series,nircat,45,190808 100 mM K puffs017 nircat.csv,190808 100 mM K puffs017 cal520.csv,"120,180,240",yes
 190808,18,6,2,K+ puffs,,depth series,nircat,30,190808 100 mM K puffs018 nircat.csv,190808 100 mM K puffs018 cal520.csv,"120,180,240",yes
-191113,4,7,1,K+ puffs,,2.5 M KCl!,nircat,,191113 K+ puffs -30 004 nircat.csv,191113 K+ puffs -30 004 cal520.csv,"120,180,240",no
+191113,4,7,1,K+ puffs high concentration,,2.5 M KCl!,nircat,,191113 K+ puffs -30 004 nircat.csv,191113 K+ puffs -30 004 cal520.csv,"120,180,240",no
 191113,9,7,2,K+ puffs,,250 mM KCl,nircat,15,191113 K+ puffs -15 009 nircat.csv,191113 K+ puffs -15 009 cal520.csv,"120,180,240",yes
